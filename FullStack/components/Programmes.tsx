@@ -8,7 +8,7 @@ const Programmes = () => {
   return (
     <div className="py-20" id="products">
       <h1 className="heading">
-         <span className="text-purple">Our Programmes</span>
+        <span className="text-purple">Our Programmes</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -16,10 +16,7 @@ const Programmes = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title=""
-              href=""
-            >
+            <PinContainer title="" href="">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
